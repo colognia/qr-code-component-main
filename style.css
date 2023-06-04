@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --headercolor: hsl(218, 44%, 22%);
+    --fontcolor:  hsl(220, 15%, 55%);
+    --shadowcolor: hsl(220, 15%, 85%);
+    --backgroundcolor: hsl(212, 45%, 89%);
+    --containercolor: white;
+    background: var(--backgroundcolor);
+    color: var(--fontcolor);
+    font-family: 'Outfit', sans-serif; 
+    font-size: 15px; /*em, for the p-element*/
+}
+
+body{
+    height: 100vh;
+}
+
+p{
+    font-size: 0.8em;
+    font-weight: 500;
+    padding: 0 8%;
+}
+
+h3{
+    color: var(--headercolor);
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+#content-div{
+    text-align: center;
+    background: var(--containercolor);
+    width: 250px;
+    height: 390px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 10px var(--shadowcolor);
+    position: absolute;  /*adapts to body, body is std-anchor*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% ); 
+}
+
+div#content-div img{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 5%;
+    border-radius: 20px;
+}
+
+#footerdiv{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+div#footerdiv p{
+    display: inline-block;
+    padding: 10px;
+}
+
+@media(max-width: 375px){
+    div#footerdiv p{
+      font-size: 0.5em;
+    }
+}
