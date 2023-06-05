@@ -20,12 +20,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./solution_desktop.png) and (./solution_mobile.png)
+![](./solution_desktop.png) and [](./solution_mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/colognia/qr-code-component-main.git)
-- Live Site URL: [Add live site URL here](https://colognia.github.io/qr-code-component-main/)
+- Solution URL: [https://github.com/colognia/qr-code-component-main]
+- Live Site URL: [https://colognia.github.io/qr-code-component-main/]
 
 ## My process
 - build html
