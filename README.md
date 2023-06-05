@@ -43,6 +43,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### What I learned
 
 I already learned how to center horizontally and vertically with absolute positioning and translate so I used it here. I know you could use flexboxes as well, but I found this way more simple and quick. But I am not sure if this is the only/best way to do it.
+Although the task is small I used variables for the colors, which is handy for bigger sites.
 
 
 ### Continued development
